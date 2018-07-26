@@ -1,0 +1,9 @@
+version: '3'
+services:
+  dun:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: dun
+    ports:
+    - 8000:80
