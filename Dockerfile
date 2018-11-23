@@ -14,6 +14,9 @@ RUN apt-get install -y supervisor
 # Install Nginx
 RUN apt-get install -y nginx
 
+# Install Gettext
+RUN apt-get install -y gettext
+
 # Import file system.
 COPY /container-fs /
 
